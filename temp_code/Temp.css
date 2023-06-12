@@ -1,0 +1,150 @@
+body{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+    height: 400px;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.glow {
+    font-size: 50px;
+    -webkit-text-stroke: 1px yellow;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+h2{
+  margin-top: 40px;  
+  text-align: center;
+  
+
+}
+#outer_div{
+    border: 10px double whitesmoke;
+    width: 750px;
+    height: 300px;
+    margin-top: 40px;
+    margin-left: 30px;
+    box-sizing: border-box;
+    background-color:#ffb3c6;
+    box-shadow:20px 20px 10px ;
+    
+}
+#reslt_div{
+    
+    /* width: 850px; */
+    display: flex;
+    /* height: 300px; */
+    /* margin-left: 250px; */
+    /* margin-top: 70px; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+#cel_div{
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+#far_div{
+    text-align: center;
+    margin-left: 65px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+#kel_div{
+    text-align: center;
+    margin-left: 65px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+#cel{
+    text-align: center;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+}
+#far{
+    text-align: center;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+
+}
+#kel{
+    text-align: center;
+    height: 40px;
+    width:150px;
+    font-size: 20px;
+}
+input{
+    background-color: #57cc99;
+    border: 3px solid crimson;
+    border-radius: 10px;
+}
+input:hover{
+    background-color: crimson;
+    color: white;
+}
+#myidentification_div{
+    height: 150px;
+    width: 100%;
+    
+}
+#heading_icons{
+    height: 100px;
+    width: 900px;
+    
+    margin-left: 220px;
+}
+#foot_h1{
+    font-style: oblique;
+    font-weight: 500px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+#foot_h3{
+    font-style: italic;
+    font-size: 20px;
+    margin-left: 650px;
+    color: aliceblue;
+    margin-top: 100px;
+    width: 200px;
+    
+}
+#linkedin{
+    padding-left: 740px;
+}
+#btn{
+    border: 1px solid black;
+}
+#img_div1{
+
+}
+#i1{
+    height: 400px;
+    width: 150px;
+    margin-left: 20px;
+}
+#content{
+    display: flex;
+    margin-left: 60px;
+}
